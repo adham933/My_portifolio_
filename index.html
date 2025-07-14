@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="portfolio-container">
+    <header class="portfolio-header">
+      <h1>My Portfolio</h1>
+      <nav class="tab-nav">
+        <button class="tab-btn active" onclick="openTab('about')">About Me</button>
+        <button class="tab-btn" onclick="openTab('designs')">My Designs</button>
+        <button class="tab-btn" onclick="openTab('contact')">Contact Me</button>
+      </nav>
+    </header>
+
+    <main class="tab-content">
+      <section id="about" class="tab-section active">
+        <h2>About Me</h2>
+        <h1>Hello! I'm a Adham Sameh I am a Graphic Designer I can design Whatever you Want.</h1>
+        <h1>I am a design expert for 4 years.</h1>
+
+        <h3>Skills:
+          <br>
+          Photoshop
+          <BR>
+          Ilustrator
+          </h3>
+        <img class="img1" src="ps,Ai Logo.jpg" alt="ps,ai_logo" >
+
+        </section>
+
+      <section id="designs" class="tab-section">
+
+    <div>
+    <h2>My Designs :</h2>
+    <img src="design1.png" alt="Design 1" >
+    <img src="design2.png" alt="Design 2" >
+    <img src="design3.png" alt="Design 3" >
+</div>
+    <div class="logo_div">
+    <img class= "Logo" src="design4.png" alt="Design 4" >
+    <img class= "Logo"src="design6.png" alt="Design 6" >
+</div>
+<div id="imagePreview" class="image-preview" onclick="closePreview()">
+  <img id="previewImg" src="" alt="Preview">
+</div>
+
+      </section>
+
+      <section id="contact" class="tab-section">
+        <h2>Contact Me</h2>
+        <div class="email">
+          <p>Email: sjeemy2468@gmail.com</p>
+          <p>Whatsapp: 01555880172</p>
+
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
